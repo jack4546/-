@@ -3,7 +3,7 @@
 
 ```C
 int f(int n){
-  if(n==1) retrun 1;
-  return f(n-1)*n;
+  if(n==1) retrun 1;  //设置边界条件，数学归纳法中的基础步
+  return f(n-1)*n;    //递归步，直接假设n-1步是正确的，那么n步就是正确的
 }
 ```
